@@ -1,0 +1,17 @@
+{
+  "name": "boopathisakthivel.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs": "gitbook build",
+    "docs-serve": "gitbook serve",
+    "docs-publish": "gh-pages -d _book --branch=master"
+  },
+  "repository": "https://github.com/boopathisakthivel/boopathisakthivel.github.io.git",
+  "author": "Boopathi Sakthivel <boopathisakthivel.in@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "gitbook-cli": "^2.3.2"
+  }
+}
